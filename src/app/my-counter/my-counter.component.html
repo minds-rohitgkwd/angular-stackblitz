@@ -1,0 +1,18 @@
+<p>my-counter works!</p>
+
+<button
+  (click)="increment()"
+  style="margin: auto 10px
+"
+>
+  +
+</button>
+<span>{{count$ | async }} </span>
+<button
+  (click)="decrement()"
+  style="margin: auto 10px
+"
+>
+  -
+</button>
+<button (click)="reset()" style="display:block; margin:15px 0;">reset</button>
